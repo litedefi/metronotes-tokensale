@@ -103,9 +103,9 @@ Additional Token issuance or minting conditions, including implemented natural i
 <br />
 
 From April 2021 to April 2026, the total OKS supply will increase from 100,000,000 to 245,312,500, with an annual reduction of the inflation rate. These OKS tokens are distributed to OKS stakers on a prorata basis provided their collateralisation ratio does not fall below the target threshold
+<br />
+<br />
 
-<br />
-<br />
 |  Period |  Increase | Total Supply  | Increase %  |
 |---|---|---|---|
 | Year one  | 0  | 100,000,000  | 0%  |
@@ -117,6 +117,7 @@ From April 2021 to April 2026, the total OKS supply will increase from 100,000,0
 
 <br />
 <br />
+
 
 ## Funding Rounds
 #### Round A
