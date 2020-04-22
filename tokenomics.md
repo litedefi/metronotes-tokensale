@@ -2,6 +2,8 @@
 
 <br />
 <br />
+<br />
+<br />
 
 ## Industry Overview
 Decentralized Finance (DeFi), also known as Open Finance, represents a broad category of financial applications being developed on open, decentralized networks. The objective is to build a multi-faceted financial system, native to crypto, that recreates and improves upon the legacy financial system. 
@@ -9,6 +11,8 @@ Decentralized Finance (DeFi), also known as Open Finance, represents a broad cat
 ## History
 Oikos is a decentralized synthetic asset platform that provides on-chain exposure to real-world currencies, commodities, stocks, and indices. These synthetic assets (Synths) are backed by Oikos Network Tokens (OKS) locked into a smart contract as collateral. Synths track the prices of various assets, allowing crypto-native and unbanked users to trade P2C (peer-to-contract) on Oikos Exchange without liquidity limitations. 
 
+<br />
+<br />
 
 ## Product/Service Line Description
 ### Oikos.exchange
@@ -20,15 +24,26 @@ Minter is a dApp for OKS holders to perform a variety of actions in the Oikos Ne
 
 ## Revenue Model
 OKS stakers stake their OKS tokens and are rewarded with trading fees generated on Oikos.Exchange. Thus, they are rewarded for committing their capital and taking on some risk.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 # Technology
-### Asset Creation
+
+## Asset Creation
 Anyone can create Synths by specifying the asset they wish to create and depositing OKS into the Oikos smart contract so that the collateralization ratio (C-ratio) is greater than 750%. This debt created is added to a Debt Register in the amount of the new Synth minted and stored in ODR's (Oikos Drawing Rights), which uses a basket of currencies to stabilize the value of the debt. This functions similarly to the IMF's special drawing right (SDR) and brings currency prices in through an on-chain oracle. The newly created Synths are added to the stakers wallet and must be paid back in order to receive the OKS tokens from the Oikos smart contract. 
 
 OKS holders are incentivized to stake their tokens and mint Synths in several ways. Firstly, there are staking rewards where they are compensated through protocol level inflation. From April 2021 to April 2026, the total OKS supply will increase from 100,000,000 to 245,312,500, with an annual halvening. These OKS tokens are distributed to OKS stakers on a pro-rata basis provided their C-ratio does not fall below the optimal threshold. If the C-ratio falls below the threshold, they will need to burn Synths to restore an adequate ratio. 
 
-### Asset Exchange 
+## Asset Exchange 
+<br />
 The second means is through Synth exchange rewards. These are generated whenever someone exchanges one Synth to another (i.e. on Oikos.exchange). This is done by burning the original asset and paying a 0.30% trading fee that is sent to a fee pool, available for OKS stakers to claim their proportion each week. In the same way Dai represents `$`1  of debt in the MakerDAO system, synthetic USD (sUSD) represents `$`1  of debt in Oikos. If you wish to exchange it, what you are doing is repricing the debt owed where instead of 1 of USD you are saying you would rather pay back  `$`1  of BTC, for example. This creates synthetic bitcoin (sBTC) and now gives you long exposure to the price of bitcoin. 
 
+<br />
 <br />
 <br />
 <br />
@@ -38,6 +53,9 @@ The second means is through Synth exchange rewards. These are generated whenever
 OKS is used as collateral to back all synthetic assets (Synths). Synths are minted when OKS holders stake their OKS as collateral using Minter, a decentralised application (dApp) for interacting with the Oikos contracts.
 
 OKS holders are incentivised to stake their tokens and mint Synths in several ways. Firstly, there are exchange rewards. The other incentive for OKS holders to stake/mint is OKS staking rewards, which comes from the protocol’s inflationary monetary policy.
+
+<br />
+<br />
 
 Token Details
 ======
@@ -53,6 +71,7 @@ Additional Token issuance or minting conditions, including implemented natural i
 
 <br />
 <br />
+
 ## Initial Supply
 #### Outstanding Supply
 100,000,000.00
@@ -62,11 +81,8 @@ Additional Token issuance or minting conditions, including implemented natural i
 
 #### Investors
 60%
-
 <br />
 <br />
-
-
 ## Launch Details
 100,000,000 OKS will be issued during the first year and allocated as follows:
 
@@ -76,13 +92,16 @@ Additional Token issuance or minting conditions, including implemented natural i
 12% was allocated to the foundation, vesting quarterly for 12 months
 20% was allocated to the team and advisors, vesting quarterly for 24 months
 
-<br />
-
 |  Token Sale |  Team & Advisors | Bounties & Marketing Incentives  | Partnership Incentives  | Foundation  |
 |---|---|---|---|---|
 | 60%  | 20%  | 3%  | 5%  | 12%  |
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+
 From April 2021 to April 2026, the total OKS supply will increase from 100,000,000 to 245,312,500, with an annual reduction of the inflation rate. These OKS tokens are distributed to OKS stakers on a prorata basis provided their collateralisation ratio does not fall below the target threshold
 
 <br />
@@ -120,6 +139,12 @@ From April 2021 to April 2026, the total OKS supply will increase from 100,000,0
 | TBA  | TBA  | 16,250,000 OKS | `$`--- | `$`--- |
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Governance
 The project has established an Improvement Proposal process, dubbed OIP (Oikos Improvement Proposal) which allows anyone in the community to put forward improvement proposals related to the protocol. OIPs describe standards for the Oikos platform, including core protocol specifications, client APIs, and contract standards.  All OIP's are discussed and expanded upon by the community in Github as well as the Oikos Discord channel.  OIP status terms:
@@ -146,6 +171,8 @@ Product improvements
 9. Interface work
 <br />
 <br />
+<br />
+<br />
 
 ## Official Links
 #### Github <a href="https://github.com/oikos-cash" target="_blank">https://github.com/oikos-cash</a>
@@ -153,7 +180,6 @@ Product improvements
 #### Twitter <a href="https://twitter.com/oikos_cash" target="_blank">https://twitter.com/oikos_cash</a>
 #### Discord <a href="https://discord.gg/qjuqy6X" target="_blank">https://discord.gg/qjuqy6X</a>
 
-<br />
 <br />
 
 ## Contact information
