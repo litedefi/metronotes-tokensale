@@ -1,0 +1,162 @@
+
+
+<html>
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"  >
+      <link rel="stylesheet" href="styles/start.css">
+      <style>
+        .pie {
+          border-radius: 100%;
+          height: calc(var(--size, 300) * 1px);
+          overflow: hidden;
+          position: relative;
+          width: calc(var(--size, 300) * 1px);
+        }
+        .pie__segment {
+          --a: calc(var(--over50, 0) * -100%);
+          --b: calc((1 + var(--over50, 0)) * 100%);
+          --degrees: calc((var(--offset, 0) / 100) * 360);
+          -webkit-clip-path: polygon(var(--a) var(--a), var(--b) var(--a), var(--b) var(--b), var(--a) var(--b));
+          clip-path: polygon(var(--a) var(--a), var(--b) var(--a), var(--b) var(--b), var(--a) var(--b));
+          height: 100%;
+          position: absolute;
+          -webkit-transform: translate(0, -50%) rotate(90deg) rotate(calc(var(--degrees) * 1deg));
+                  transform: translate(0, -50%) rotate(90deg) rotate(calc(var(--degrees) * 1deg));
+          -webkit-transform-origin: 50% 100%;
+                  transform-origin: 50% 100%;
+          width: 100%;
+          z-index: calc(1 + var(--over50));
+        }
+        .pie__segment:after,
+        .pie__segment:before {
+          background: var(--bg, #e74c3c);
+          content: '';
+          height: 100%;
+          position: absolute;
+          width: 100%;
+        }
+        .pie__segment:before {
+          --degrees: calc((var(--value, 45) / 100) * 360);
+          -webkit-transform: translate(0, 100%) rotate(calc(var(--degrees) * 1deg));
+                  transform: translate(0, 100%) rotate(calc(var(--degrees) * 1deg));
+          -webkit-transform-origin: 50% 0%;
+                  transform-origin: 50% 0%;
+        }
+        .pie__segment:after {
+          opacity: var(--over50, 0);
+        }
+        * {
+          box-sizing: border-box;
+        }
+        body {
+          -webkit-box-align: center;
+                  align-items: center;
+
+          color: #131222;
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+                  flex-direction: column;
+          padding: 1rem;
+          font-family: 'Montserrat', sans-serif;
+          -webkit-box-pack: center;
+                  justify-content: center;
+          min-height: 100vh;
+        }
+        label {
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+        }
+        input {
+          min-width: 80px;
+        }
+        .actions {
+          display: grid;
+          grid-gap: 4px;
+          grid-template-columns: auto auto;
+          z-index: 99;
+        }
+
+        .foo {
+          float: left;
+          width: 20px;
+          height: 20px;
+          margin: 5px;
+          border: 1px solid rgba(0, 0, 0, .2);
+        }
+
+
+        .bounties {
+          background: #dde0fa;
+        }
+        .partnership {
+          background: #c2d0f3;
+        }
+        .team {
+          background: #1f3649;
+        }
+        .foundation {
+          background: #355977;
+        }
+        .tokensale {
+          background: #2e2b69;
+        }
+        p {
+          font-size:18px;
+          font-weight: bold;
+          font-family: Montserrat;s
+          color:#131222
+        }        
+        label {
+          color:#e4e4fa;
+          font-size: 18px;
+        }
+      </style>
+
+    </head>
+<body>
+ 
+  <div class="main-container" style="width:75%">
+    <div class="row">
+
+
+      <div iclass="col-sm-4" style="padding-left:8%;margin-left:50px;border:0px black solid; width:230px">
+        <div class="foo tokensale" style="margin-right:10px"></div>
+        <p style="margin-top:5px">Token Sale 60%</p>        
+        <br /><br />
+        <div class="foo team" style="margin-right:10px"></div>
+        <p style="margin-top:5px">Team & Advisors 20%</p>
+        <br /><br />
+        <div class="foo foundation" style="margin-right:10px"></div>
+        <p style="margin-top:5px">Foundation 12%</p>        
+        <br /><br />
+    
+        <div class="foo partnership" style="margin-right:10px"></div>
+        <p style="margin-top:5px">Partnership Incentives 5%</p>
+        <br /><br />
+
+        <div class="foo bounties" style="margin-right:10px"></div>
+        <p style="margin-top:5px">Bounties & Marketing 3%</p>
+
+      </div>
+    <div iclass="col-sm-3"  style=" border:0px black solid; width:230px">
+      <br /><br />
+      <h2 style="margin-top:-40px;margin-bottom:30px; font-size:32px;">Token Allocation</h2>
+      <br/>
+      <div class="pie">
+        <div class="pie__segment" style="--offset: 0; --value: 50; --bg: #262449;"></div>
+        <div class="pie__segment" style="--offset: 50; --value: 10; --bg: #262449;"></div>
+        <div class="pie__segment" style="--offset: 60; --value: 20; --bg: #1f3649;"></div> 
+        <div class="pie__segment" style="--offset: 80; --value: 12; --bg: #355977;"></div> 
+        <div class="pie__segment" style="--offset: 92; --value: 5; --bg: #c2d0f3;"></div> 
+        <div class="pie__segment" style="--offset: 97; --value: 3; --bg: #dde0fa;"></div> 
+      </div>
+
+  </div>
+
+
+  </div>
+</body> 
+
+</html> 
