@@ -103,21 +103,21 @@ Additional Token issuance or minting conditions, including implemented natural i
 <br />
 
 From April 2021 to April 2026, the total OKS supply will increase from 100,000,000 to 245,312,500, with an annual reduction of the inflation rate. These OKS tokens are distributed to OKS stakers on a prorata basis provided their collateralisation ratio does not fall below the target threshold
+
 <br />
 <br />
 
 |  Period |  Increase | Total Supply  | Increase %  |
 |---|---|---|---|
-| Year one  | 0  | 100,000,000  | 0%  |
-| Year two  | 75,000,000  | 175,000,000  | 75%  |
-| Year three  | 37,500,000  | 212,500,000  | 21%  |
-| Year four  | 18,750,000  | 231,250,000  | 9%  |
-| Year five  | 9,375,000  | 240,625,000  | 4%  |
-| Year six  | 4,687,500  | 245,312,500  | 2%  |
-
+| Year one  | 73,438,656  | 173,438,656  | 73.43%  |
+| Year two  |  46,450,315| 219,888,971 | 26.78%  |
+| Year three | 24,150,054  | 244,039,025  | 10.98%  |
+| Year four  | 12,555,890  | 256,594,915  | 5.14%  |
+| Year five  | 7,067,493  | 263,662,408  | 2.75%  |
+| Year six  | 6,802,990 | 270,465,398  | 2.58%  |
+| Year seven | 6,845,198 | 277,310,596| 2.53%
 <br />
-<br />
-
+<br />  
 
 ## Funding Rounds
 #### Round A
@@ -147,7 +147,7 @@ From April 2021 to April 2026, the total OKS supply will increase from 100,000,0
 <br />
 
 ## Governance
-The project has established an Improvement Proposal process, dubbed OIP (Oikos Improvement Proposal) which allows anyone in the community to put forward improvement proposals related to the protocol. OIPs describe standards for the Oikos platform, including core protocol specifications, client APIs, and contract standards.  All OIP's are discussed and expanded upon by the community in Github as well as the Oikos Discord channel.  OIP status terms:
+The project has established an Improvement Proposal process, dubbed OIP (Oikos Improvement Proposal),which allows anyone in the community to put forward improvement proposals related to the protocol. OIPs describe standards for the Oikos platform, including core protocol specifications, client APIs, and contract standards.  All OIP's are discussed and expanded upon by the community in Github as well as the Oikos Discord channel.  OIP status terms:
 
 WIP - a OIP that is still being developed.
 Proposed - a OIP that is ready to be reviewed in a governance call.
@@ -173,7 +173,27 @@ Product improvements
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+## Team
 
+### Kevin Holder 
+#### Co-Founder & Software Engineer
+Kevin is a computer science dropout from École Polytechnique, Paris. Before co-founding Oikos, he was spending most of his time experimenting with blockchain ideas and contributing to open source GitHub projects. His programming languages of choice are (in no particular order) Solidity, JavaScript and Rust.
+
+### Albert Rodriguez
+#### Co-Founder
+Albert is an early Bitcoin, Ethereum and Tron adopter. His fascination for DeFi lead him to come up with the idea for Oikos and everything started from there. He is also a very talented developer with experience in several programming languages. His daily routine consists in drinking a lot of coffee, writing code and thinking of new possible directions for Oikos.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 ## Official Links
 #### Github <a href="https://github.com/oikos-cash" target="_blank">https://github.com/oikos-cash</a>
 #### Telegram <a href="https://t.me/oikoscash" target="_blank">https://t.me/oikoscash</a>
