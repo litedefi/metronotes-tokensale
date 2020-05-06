@@ -84,13 +84,13 @@ Additional Token issuance or minting conditions, including implemented natural i
 <br />
 <br />
 ## Launch Details
-100,000,000 OKS will be issued during the first year and allocated as follows:
+100,000,000 OKS have been issued and are allocated as follows:
 
-60% was allocated to investors in the Main Sale and the EOI Sale
-3% was reserved for Bounties and Marketing Incentives
-5% was reserved for Partnership Incentives
-12% was allocated to the foundation, vesting quarterly for 12 months
-20% was allocated to the team and advisors, vesting quarterly for 24 months
+60% allocated to investors in the private and main sale
+3%  reserved for Bounties and Marketing Incentives
+5%  reserved for Partnership Incentives
+12% allocated to the foundation, vesting quarterly for 12 months
+20% allocated to the team and advisors, vesting quarterly for 24 months
 
 |  Token Sale |  Team & Advisors | Bounties & Marketing Incentives  | Partnership Incentives  | Foundation  |
 |---|---|---|---|---|
@@ -102,7 +102,7 @@ Additional Token issuance or minting conditions, including implemented natural i
 <br />
 <br />
 
-From April 2021 to April 2026, the total OKS supply will increase from 100,000,000 to 245,312,500, with an annual reduction of the inflation rate. These OKS tokens are distributed to OKS stakers on a prorata basis provided their collateralisation ratio does not fall below the target threshold
+OKS tokens have a built-in inflationary supply schedule. Starting the first year, 1,442,308 OKS will be added every week, with a decay rate of 1.25% starting at week 40 and running for 194 weeks. At week 234, a terminal rate of 2.5% perpetual inflation will be reached. The minted supply will be used to reward stakers and to incentivize long-term network participation.
 
 <br />
 <br />
