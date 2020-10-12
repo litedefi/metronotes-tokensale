@@ -17,4 +17,4 @@ Amontes is to be guided by its community and MOS represents ownership in the Amo
 10% - Investors : 5 year vesting
 10% - Investors : 10 year vesting
 
-MOS is an inflationary currency increasing at rate guided by MOS holders.  The initial rate of inflation is 1% to provide continued support of the platform.
+MOS is an inflationary currency increasing at rate guided by MOS holders.  The initial rate of inflation is 1% to provide continued support of the platform.  An Amontes Improvement Proposal or AIP will be issued to resolve the rate of inflation.
